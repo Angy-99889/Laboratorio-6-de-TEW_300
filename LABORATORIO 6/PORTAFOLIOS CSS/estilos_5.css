@@ -1,0 +1,56 @@
+body {
+    font-family: 'Courier New', monospace;
+    margin: 0;
+    background-color: #fffdf7;
+    color: #333;
+  }
+  
+  header {
+    background: linear-gradient(to right, #f48fb1, #ce93d8);
+    color: white;
+    text-align: center;
+    padding: 50px 20px;
+  }
+  
+  .bio, .galeria, .exposiciones {
+    padding: 40px 20px;
+    max-width: 1000px;
+    margin: auto;
+  }
+  
+  h2 {
+    color: #6a1b9a;
+    border-bottom: 2px solid #e1bee7;
+    padding-bottom: 8px;
+    margin-bottom: 20px;
+  }
+  
+  .imagenes {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+  }
+  
+  .imagenes img {
+    border-radius: 15px;
+    border: 3px solid #ab47bc;
+    width: 250px;
+    height: 250px;
+    object-fit: cover;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+  }
+  
+  ul {
+    list-style: square;
+    padding-left: 20px;
+  }
+  
+  footer {
+    background-color: #8e24aa;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    margin-top: 40px;
+  }
+  

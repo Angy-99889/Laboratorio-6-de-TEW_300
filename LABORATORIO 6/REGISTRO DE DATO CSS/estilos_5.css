@@ -1,0 +1,54 @@
+body {
+    font-family: 'Tahoma', sans-serif;
+    background-color: #e8f5e9;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .formulario-voluntario {
+    max-width: 450px;
+    margin: 50px auto;
+    background-color: white;
+    padding: 25px;
+    border-radius: 10px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+  }
+  
+  h2 {
+    text-align: center;
+    color: #388e3c;
+  }
+  
+  form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  label {
+    margin-top: 12px;
+    font-weight: bold;
+    color: #2c6e49;
+  }
+  
+  input, select {
+    padding: 8px;
+    margin-top: 5px;
+    border: 1px solid #81c784;
+    border-radius: 6px;
+  }
+  
+  button {
+    margin-top: 20px;
+    padding: 10px;
+    background-color: #66bb6a;
+    color: white;
+    font-size: 16px;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #388e3c;
+  }
+  

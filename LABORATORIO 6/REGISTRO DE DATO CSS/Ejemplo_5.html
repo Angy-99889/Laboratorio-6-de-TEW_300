@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Registro de Voluntario</title>
+  <link rel="stylesheet" href="estilos_5.css">
+</head>
+<body>
+  <div class="formulario-voluntario">
+    <h2>Registro de Voluntario</h2>
+    <form>
+      <label for="nombre">Nombre completo:</label>
+      <input type="text" id="nombre" name="nombre" required>
+
+      <label for="edad">Edad:</label>
+      <input type="number" id="edad" name="edad" required>
+
+      <label for="email">Correo electrónico:</label>
+      <input type="email" id="email" name="email" required>
+
+      <label for="disponibilidad">Disponibilidad (horas por semana):</label>
+      <input type="number" id="disponibilidad" name="disponibilidad" required>
+
+      <label for="interes">Área de interés:</label>
+      <select id="interes" name="interes" required>
+        <option value="">Seleccione</option>
+        <option value="educacion">Educación</option>
+        <option value="salud">Salud</option>
+        <option value="medio_ambiente">Medio ambiente</option>
+      </select>
+
+      <button type="submit">Registrar Voluntario</button>
+    </form>
+  </div>
+</body>
+</html>
+
